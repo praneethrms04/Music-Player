@@ -1,0 +1,22 @@
+@import url("https://fonts.cdnfonts.com/css/basier");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+    color: #ffffff;
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Basier Circle", sans-serif;
+  /* color: #ffffff; */
+  scroll-behavior: smooth;
+  position: relative;
+  width: 1512px;
+  height: 895px;
+  background: linear-gradient(108.18deg, #201606 2.46%, #000000 99.84%);
+  border-radius: 8px;
+}
