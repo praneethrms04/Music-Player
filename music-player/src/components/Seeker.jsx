@@ -92,9 +92,9 @@ export default function Seeker({ audio, isPlaying }) {
   return (
     <canvas
       ref={canvasRef}
-      width={480}
+      width={300}
       height={16}
-      style={{ borderRadius: "50px", cursor: "pointer" }}
+      style={{cursor: "pointer" }}
     />
   );
 }
