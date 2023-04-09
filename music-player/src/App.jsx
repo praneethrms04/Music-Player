@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import Navigation from "./components/Navigation";
 import Sidebar from "./components/Sidebar";
 import Player from "./components/Player";
-import "./App.css"
+import "./App.css";
 
-const App =()=> {
+const App = () => {
   const [selectedPlaylist, setSelectedPlaylist] = useState({
     id: 1,
     title: "For You",
@@ -23,7 +23,6 @@ const App =()=> {
   }, []);
 
   useEffect(() => {
-    // this one is for play/pause from keyboard shortcuts or bluetooth controls
     if (audio) {
       audio.addEventListener("play", () => {
         setIsPlaying(true);
@@ -149,6 +148,6 @@ const App =()=> {
       />
     </div>
   );
-}
+};
 
 export default App;
